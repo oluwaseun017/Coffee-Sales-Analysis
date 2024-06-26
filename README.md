@@ -128,6 +128,130 @@ Removing duplicates using Excel’s built-in functionality
 To check and remove duplicates, go to the "Data" tab and click on "Remove Duplicates" in the menu.
 
 
+## Data Analysis
+
+### Total Sales Over Time
+
+We’ll start with a line graph that highlights the total sales of four coffee types—Arabica, Excelsa, Liberica, and Robusta—over the years 2019 to 2022. To make the data exploration more interactive, we'll add slicers for dates, roast type, size, and loyalty card preference. This way, you can easily filter and analyze the data to uncover hidden patterns and trends.
+
+**Create a Pivot Table:**
+
+- Insert a pivot table to analyze total coffee sales over time.
+
+**Set Up the Pivot Table:**
+
+- Drag the Order Date from the PivotTable Field list to the Rows area.
+- Right-click on any cell in the Order Date column, select Group, and choose to group by Months and Years.
+- Click on the Design tab, then select Report Layout and choose Show in Tabular Form. Disable both Grand Totals and Subtotals.
+
+**Configure the Pivot Table Fields:**
+
+Drag Coffee Type Name from the PivotTable Field list to the Columns area.
+Drag Sales to the Values area.
+
+**Format the Sales Values:**
+
+- Click on the Sales values in the pivot table, then select Value Field Settings.
+- Click on Number Format, choose Number, set No Decimal Places, and enable the 1000 Separator.
+
+  ![over time](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/ade5799f-4d41-42c0-b086-a169d7d811f5)
+
+**Insert a Line Chart:**
+
+- Insert a line chart to visualize the data.
+- Right-click on the field buttons in the chart and select Hide All.
+  
+- Format the Chart:
+
+- Double-click on the chart to open the formatting options.
+- Select Solid Fill and choose your preferred colors.
+- Add a chart title: Total Sales Over Time.
+- Label the vertical axis
+
+![over time chart](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/80a6bd76-3854-4ed9-be72-3fa2566dbf5f)
+
+
+### Creating and Formatting a Timeline with our chart
+
+To help visualize our coffee sales data, we’ll create an interactive timeline chart. This will allow us to filter the data by time periods and customize the look of the timeline.
+
+- Click on the PivotChart to select it.
+- Go to the PivotChart Analyze tab.
+- Click on Insert Timeline
+- A dialog box will appear. Choose the order date field that we want to use for our timeline and click OK.
+- Customize the Timeline Style:such as font color, size, and style to make your timeline more visually appealing and easier to read.
+
+  ![timeline chart](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/71e0cc24-a59f-49b4-853b-50fc9ce7dbc4)
+
+
+  ### Adding and Customizing Slicers with our chart
+
+  This will create interactive slicers for our chart, allowing us to filter the data by size, loyalty card, and roast type, all with a custom, well-designed style.
+
+  ![slicer chart](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/6a6cc0ba-27ff-4811-a2ce-19ee128f91c0)
+
+
+  ### Total Sales by Country
+
+  Next, let's create a bar chart that highlights total coffee sales in three countries known for their love of coffee: the United States, Ireland, and the United Kingdom. This chart will show us a quick overview of how much coffee each country consumes.
+
+  ![sales by country chart](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/87a56950-cf75-4c54-b634-a86a774d0705)
+
+
+  ### Top 5 Customers by Sales
+
+  A clear and visualIZE appealing bar chart that highlights the top 5 customers based on their coffee sales, with customized formatting for clarity and impact.
+
+  ![TOP 5 CUSTOMER](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/6dfa1859-0b10-4ba6-8a36-24a2e5d9ae01)
+
+
+
+### Dashboard
+The final dashboard includes interactive charts and slicers for dynamic data exploration. It comprises:
+
+- Total sales over time (line chart)
+- Sales by country (bar chart)
+- Top 5 customers by sales (bar chart)
+- Interactive timeline and slicers for filtering data
+
+We'll create a well-organized and visualization appealing dashboard that integrates key charts and filters for analyzing coffee sales data effectively.
+
+![Coffee Sales Dashboard](https://github.com/oluwaseuntaiwo/Coffee-Sales-Analysis/assets/145341799/c781beea-c057-4f72-9f89-c62f79829025)
+
+
+## Conclusion
+
+The coffee sales analysis project has given us valuable insights into many aspects of coffee sales performance. By merging customer and product data into the order table, we gained a better understanding of sales trends over time, regional sales distribution, and the preferences of our top customers. Visualizations like line charts and bar charts helped us interpret the data more effectively and spot important patterns. This analysis underscores how using data to guide decisions can strengthen business strategies and boost sales performance.
+
+
+
+
+*Remember, data visualization isn’t just about charts and graphs; it’s about telling a story that leads to actionable insights. The interplay of different visualizations allows you to explore the data from various angles, uncovering trends and correlations.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
