@@ -4,11 +4,12 @@
 
 ## Introduction
 
-This project aims is to dive into coffee sales data to uncover valuable insights into sales performance over time, broken down by country, and to identify our top customers. I will be using Excel for cleaning, transforming, and visualizing the data to bring these insights to life.
+Welcome to my Coffee Sales Analysis project! This initiative aims to delve deep into coffee sales data to uncover valuable insights regarding sales performance over time, segmented by country, and to identify our top customers. Utilizing Excel for data cleaning, transformation, and visualization, I aim to bring these insights to life in a way that is both informative and actionable.
 
 ## Problem Statement
 
-The coffee sales company is grappling with understanding how well it's doing in sales across different aspects like time, location, and customer types. The data is scattered across different places, which makes it hard to find useful insights. Because of this, the company can't figure out important sales trends, which products are doing the best, or who their most valuable customers are. This lack of clarity is making it tough for the company to make smart choices, improve their marketing plans, and grow their sales. The main goal here is to gather and analyze all the coffee sales data so they can uncover these insights and start making decisions based on solid information.
+The coffee sales company faces challenges in comprehensively understanding its sales performance across various dimensions such as time, location, and customer demographics. The existing data is scattered across different platforms, making it difficult to extract meaningful insights. This fragmentation prevents the company from identifying critical sales trends, recognizing which products are performing best, or pinpointing their most valuable customers. Consequently, the lack of clarity hinders the company's ability to make informed decisions, refine marketing strategies, and ultimately drive sales growth.
+The primary goal of this project is to consolidate and analyze all relevant coffee sales data. By doing so, we aim to unearth actionable insights that can guide strategic decision-making and foster growth.
 
 ## Data Source
 
